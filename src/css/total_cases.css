@@ -1,0 +1,52 @@
+.total_card{
+    width:100%;
+    z-index:7;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    gap:8%;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 6px black;
+    position: relative;
+    padding-top:7%;
+    padding-bottom:7%;
+}
+
+.data{
+    width:70%;
+    height:30%;
+    display:flex;
+    flex-direction: column;
+    margin-left:5%;
+    gap:15%;
+}
+.progress{
+    width:60%;
+    height:20px;
+}
+.conf{
+    display: flex;
+    align-items: center;
+    gap:2%;
+}
+.value{
+ /* background-color: #0078ff; */
+ background-color: #e01414;
+ width:75%;
+ height:100%;
+}
+
+.data-card{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px){
+    .data-card{
+        flex-direction:column;
+        align-items: center;
+    }
+    .data{
+        width:95%;
+    }
+}

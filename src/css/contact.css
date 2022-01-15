@@ -1,0 +1,21 @@
+.contact{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding:10%;
+    width:90%;
+    overflow-x: hidden;
+}
+
+#feild{
+    display:flex;
+    flex-direction: column;
+    padding-top:2%;
+    margin-left:1%;
+    overflow-x: hidden;
+}
+#button{
+    margin:2%;
+}
